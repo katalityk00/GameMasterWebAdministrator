@@ -1,0 +1,36 @@
+{
+  "name": "gamemasterwebadministrator",
+  "version": "1.0.0",
+  "description": "WebInterface for game mastering",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katalityk00/GameMasterWebAdministrator.git"
+  },
+  "keywords": [
+    "game master",
+    "rpg",
+    "web"
+  ],
+  "author": "katalityk00",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katalityk00/GameMasterWebAdministrator/issues"
+  },
+  "homepage": "https://github.com/katalityk00/GameMasterWebAdministrator#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "ejs": "^2.6.2",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "js-sha512": "^0.8.0",
+    "mongodb": "^3.3.0-beta2",
+    "path": "^0.12.7"
+  }
+}
